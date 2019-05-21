@@ -22,6 +22,12 @@ DEPENDENCIES:
   - Masonry (~> 1.1.0)
   - ReactiveObjC (~> 3.1.1)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - ReactiveObjC
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -29,4 +35,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 2be96a3fca8b1f4f79df67277d63afafc20b15e3
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.2

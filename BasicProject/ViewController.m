@@ -10,13 +10,31 @@
 
 @interface ViewController ()
 
+@property (nonatomic, assign)NSInteger aaa;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self initializationDatakey:@""];
+    
+    [self initializationView];
+}
+
+#pragma mark - Private
+- (void)initializationDatakey:(NSString *)key
+{
+    if (1) {
+        NSLog(@"");
+    }
+}
+
+- (void)initializationView
+{
+    
 }
 
 
